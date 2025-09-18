@@ -22,3 +22,4 @@ console.log(peakElement([1, 2, 1, 3, 5, 6, 4]
 )); //5
 console.log(peakElement([1]
 )); //0
+

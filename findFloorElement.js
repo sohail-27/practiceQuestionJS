@@ -8,6 +8,9 @@ function findFloorElement(arr, key) {
     while(s<=e){
          let mid = Math.floor(s+(e-s)/2);
 
+                 if(target == arr[mid]) return mid;
+
+
          if(key < arr[mid]){
             e = mid - 1;
          }

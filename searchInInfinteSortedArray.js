@@ -3,7 +3,7 @@ function infiniteArray(arr, key){
     let s = 0;
     let e = 1;
     
-    while(key > arr[e]){
+    while(key > arr[e]){ // condition to find the box where the key may be present, if key is greater than the end element of the box then we need to find a bigger box
         let newStart = e + 1;
         e = e + (e - s + 1) * 2; // double the box size, As in normal binary search we cut them in half but here we double the box size means reverse of halving
         s = newStart;

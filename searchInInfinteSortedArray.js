@@ -4,7 +4,7 @@ function infiniteArray(arr, key){
     let e = 1;
     
     while(key > arr[e]){
-        let newStart = e +1;
+        let newStart = e + 1;
         e = e + (e - s + 1) * 2; // double the box size, As in normal binary search we cut them in half but here we double the box size means reverse of halving
         s = newStart;
     }

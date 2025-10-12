@@ -7,26 +7,22 @@ var search = function (nums, target) {
 
     function findPivot(nums) {
         let s = 0, e = nums.length - 1;
-
+        if (nums[s] < nums[e]) return e; // Not rotated
         while (s < e) {
-
             let mid = Math.floor(s + (e - s) / 2);
-
-            if (nums[mid] > nums[mid + 1]) { // If mid is greater than mid + 1, then mid is the pivot
-                return mid;// Return mid as pivot
+            if (nums[mid] > nums[mid + 1]) {
+                return mid;
             }
-            if (nums[mid] < nums[mid - 1]) {// If mid is less than mid - 1, then mid - 1 is the pivot
-                return mid - 1;// Return mid - 1 as pivot
+            if (nums[mid] < nums[mid - 1]) {
+                return mid - 1;
             }
-            if (nums[mid] <= nums[s]) {// If mid is less than or equal to start, then pivot is in left side
-                e = mid - 1;// Move the end pointer to mid - 1
-            }
-            else {// If mid is greater than start, then pivot is in right side
-                s = mid + 1;// Move the start pointer to mid + 1
+            if (nums[mid] <= nums[s]) {
+                e = mid - 1;
+            } else {
+                s = mid + 1;
             }
         }
-
-        return -1
+        return s;
     }
 
     function findTarget(nums, target, s, e) {

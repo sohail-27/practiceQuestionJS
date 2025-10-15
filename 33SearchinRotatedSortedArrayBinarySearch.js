@@ -52,5 +52,14 @@ var search = function(nums, target) {
     return findTarget(nums, target, pivot+1,nums.length-1) 
 
 };
-console.log(search([4,5,6,7,0,1,2], 2));
-console.log(search([5,1,3], 5));
+console.log(search([4,5,6,7,0,1,2], 2)); //6
+console.log(search([5,1,3], 5));//0
+console.log(search([4,5,6,7,0,1,2], 3)); //-1
+console.log(search([1], 0)); //-1
+console.log(search([1,3], 3)); //1
+console.log(search([3,1], 1)); //1
+console.log(search([1,3], 1)); //0
+console.log(search([3,1], 3)); //0
+console.log(search([1,3,5], 1)); //0
+console.log(search([1,3,5], 3)); //1
+console.log(search([1,3,5], 5)); //2

@@ -25,3 +25,4 @@ console.log(searchMatrix([[1,3,5]], 1)) // true
 console.log(searchMatrix([[1,3,5]], 0)) // false
 console.log(searchMatrix([[1],[3],[5]], 5)) // true
 console.log(searchMatrix([[1],[3],[5]], 2)) // false
+console.log(searchMatrix([[1,3,5]], 3)) // true

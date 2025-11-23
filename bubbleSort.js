@@ -25,3 +25,4 @@ console.log(bubbleSort([5,4,3,2,1]));
 console.log(bubbleSort([1,2,3,4,5]));
 console.log(bubbleSort([]));
 console.log(bubbleSort([1]));
+console.log(bubbleSort([2,1]));

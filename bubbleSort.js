@@ -27,4 +27,3 @@ console.log(bubbleSort([]));
 console.log(bubbleSort([1]));
 console.log(bubbleSort([2,1]));
 console.log(bubbleSort([3,2,1]));
-console.log(bubbleSort([1,3,2]));

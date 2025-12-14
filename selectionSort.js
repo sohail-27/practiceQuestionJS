@@ -27,4 +27,4 @@ var selectionSort = function(nums){
     return nums
 }
 console.log(selectionSort([3,1,8,0,5,4,2]))// [0,1,2,3,4,5,8]
-console.log(selectionSort([10,20,5,15]))// [5,10,15,20]
+

@@ -7,4 +7,4 @@ function recursion(n){
 }
 }
 
-recursion(5);
+recursion(4);

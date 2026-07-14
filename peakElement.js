@@ -22,4 +22,6 @@ console.log(peakElement([1, 2, 1, 3, 5, 6, 4]
 )); //5
 console.log(peakElement([1]
 )); //0
+console.log(peakElement([1, 2])); //1 why 1 because 2 is the peak element in the array [1, 2]. The function returns the index of the peak element, which is 1 in this case.
+
 

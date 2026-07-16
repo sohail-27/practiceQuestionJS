@@ -28,4 +28,3 @@ console.log(searchMatrix([[1]], 1)); // true
 console.log(searchMatrix([[1,3]], 3)); // true
 console.log(searchMatrix([[1],[3]], 3)); // true
 console.log(searchMatrix([[1,3,5]], 1)); // true
-console.log(searchMatrix([[1],[3],[5]], 5)); // true

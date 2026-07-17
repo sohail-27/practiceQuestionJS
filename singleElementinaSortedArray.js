@@ -50,3 +50,4 @@ console.log(singleNonDuplicate2([1])); //1
 console.log(singleNonDuplicate2([3,3,7,7,10,11,11])); //10
 console.log(singleNonDuplicate2([1,1,2,3,3,4,4,8,8])); //2
 console.log(singleNonDuplicate([1,1,2,2,3])); //3
+console.log(singleNonDuplicate2([1,1,2,2,3,3,4,4,5])); //5

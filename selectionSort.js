@@ -28,3 +28,4 @@ var selectionSort = function (nums) {
 }
 console.log(selectionSort([3, 1, 8, 0, 5, 4, 2]))// [0,1,2,3,4,5,8]
 console.log(selectionSort([3, 1, 8, 0, 5, 4, 2, 9]))// [0,1,2,3,4,5,8,9]
+console.log([3, 1, 8, 0, 5, 4, 2, 9, 10])// [0,1,2,3,4,5,8,9,10]

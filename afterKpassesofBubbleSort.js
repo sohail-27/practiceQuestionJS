@@ -15,5 +15,3 @@ console.log(bubbleSort([64, 34, 25, 12, 22, 11, 90], 3));// [11,12,22,25,34,64,9
 console.log(bubbleSort([5,4,3,2,1], 4));// [1,2,3,4,5]
 console.log(bubbleSort([1,2,3,4,5], 2));// [1,2,3,4,5]
 console.log(bubbleSort([], 1));// []
-console.log(bubbleSort([1], 1));// [1]
-console.log(bubbleSort([2,1], 1));// [1,2]

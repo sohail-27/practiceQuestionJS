@@ -18,4 +18,3 @@ var nextGreatestLetter = function(letters, target) {
 console.log(nextGreatestLetter(["c", "f", "j"], "a")); //"c"
 console.log(nextGreatestLetter(["c", "f", "j"], "c")); //"f"
 console.log(nextGreatestLetter(["c", "f", "j"], "d")); //"f"
-console.log(nextGreatestLetter(["c", "f", "j"], "g")); //"j"

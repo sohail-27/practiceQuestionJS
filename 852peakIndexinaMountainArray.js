@@ -32,3 +32,4 @@ function mountainArrayPeakIdx(arr){
 console.log(mountainArrayPeakIdx([0,10,23, 45, 50, 44, 30, 5,2])); //4
 console.log(mountainArrayPeakIdx([0, 2, 1, 0])); //1
 console.log(mountainArrayPeakIdx([0, 10, 5, 2])); //1
+console.log(mountainArrayPeakIdx([3, 4, 5, 1])); //2

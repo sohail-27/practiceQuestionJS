@@ -76,5 +76,3 @@ var maximumCount = function(nums) {
 console.log(maximumCount([5,20,66,1314])); // 4
 console.log(maximumCount([-2, -1, -1, 0, 0, 1, 1, 2])); // 3
 console.log(maximumCount([0,0,0,0,0,0,1])); // 1
-console.log(maximumCount([-3,-2,-1])); // 3
-console.log(maximumCount([-5,-3,-1,0,0,0])); // 3

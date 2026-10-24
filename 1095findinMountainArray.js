@@ -59,3 +59,4 @@ function findTargetInMountainArr(arr, target) {
 console.log(findTargetInMountainArr([0, 1, 2, 4, 2, 1], 2)); //2
 console.log(findTargetInMountainArr([0, 1, 2, 4, 2, 1], 3)); //-1
 console.log(findTargetInMountainArr([0, 5, 3, 1], 1)); //3
+console.log(findTargetInMountainArr([0, 1, 2, 4, 2, 1], 0)); //0

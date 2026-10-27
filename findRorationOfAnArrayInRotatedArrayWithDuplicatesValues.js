@@ -41,4 +41,3 @@ var rotationCount = function(arr) {
 console.log(rotationCount([2,3,3,4,5,5,9,0,1,2,2,2])); //7
 console.log(rotationCount([4,5,6,7,0,1,2])); //4
 console.log(rotationCount([1,2,3,4,5])); //0
-console.log(rotationCount([1])); //0

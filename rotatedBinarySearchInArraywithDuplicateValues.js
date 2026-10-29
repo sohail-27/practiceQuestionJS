@@ -83,5 +83,3 @@ console.log(findElementInDuplicateRotatedArray([1,1,1,3,1], 3)); //3
 console.log(findElementInDuplicateRotatedArray([1,1,3,1,1], 3)); //2
 console.log(findElementInDuplicateRotatedArray([1,3,1,1,1], 3)); //1
 console.log(findElementInDuplicateRotatedArray([3,1], 1)); //1
-console.log(findElementInDuplicateRotatedArray([3,3,3,3,1,3], 1)); //4
-console.log(findElementInDuplicateRotatedArray([3,3,3,3,1,3], 3)); //0

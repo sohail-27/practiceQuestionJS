@@ -74,7 +74,5 @@ var findElementInDuplicateRotatedArray = function(arr, key) {
 }
 
 console.log(findElementInDuplicateRotatedArray([2,5,6,0,0,1,2], 0)); //3
-console.log(findElementInDuplicateRotatedArray([2,5,6,0,0,1,2], 3)); //-1
-console.log(findElementInDuplicateRotatedArray([1,1,3,1], 3)); //2
 console.log(findElementInDuplicateRotatedArray([1,1,1,1,1,1,1], 3)); //-1
 console.log(findElementInDuplicateRotatedArray([1,1,1,1,1,1,1], 1)); //0

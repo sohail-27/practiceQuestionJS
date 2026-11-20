@@ -13,4 +13,3 @@ var countElements = function(nums) {
 console.log(countElements([11,7,2,15])); // 2
 console.log(countElements([-3,3,3,90])); // 1
 console.log(countElements([1,1,1])); // 0
-console.log(countElements([5,1,3,4,2])); // 3

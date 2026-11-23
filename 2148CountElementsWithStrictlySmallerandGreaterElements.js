@@ -9,3 +9,5 @@ var countElements = function(nums) {
     const max = Math.max(...nums);
     return nums.reduce((count, num) => count + (num > min && num < max ? 1 : 0), 0);
 };
+
+console.log(countElements([11,7,2,15])); //2

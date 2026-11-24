@@ -14,3 +14,4 @@ console.log(countElements([11,7,2,15])); //2
 console.log(countElements([-3,3,3,90])); //2
 console.log(countElements([1,1,1])); //0
 console.log(countElements([1,2,3])); //1
+console.log(countElements([1,2,3,4])); //2
